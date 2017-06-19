@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+    
+<EditText android:id="@+id/edit_text"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="5dip"
+          android:gravity="right"
+          android:editable="false"/>
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    
+<Button android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    清除    " 
+        android:layout_margin="5dip"
+        android:textSize="25sp"/>
+
+<Button android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    退格    "
+        android:layout_margin="5dip"
+        android:textSize="25sp"/>
+
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    
+<Button android:id="@+id/seven_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 7 "
+        android:layout_margin="5dip"
+        android:textSize="30sp"/>
+
+<Button android:id="@+id/eight_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 8 " 
+        android:layout_margin="5dip"
+        android:textSize="30sp" />
+
+<Button android:id="@+id/nine_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 9 " 
+        android:layout_margin="5dip"
+        android:textSize="30sp"/>
+
+<Button android:id="@+id/division_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ÷ " 
+        android:layout_margin="5dip"
+        android:textSize="30sp"/> 
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    
+<Button android:id="@+id/four_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 4 "
+        android:layout_margin="5dip"
+        android:textSize="30sp"/>
+
+<Button android:id="@+id/five_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 5 " 
+        android:layout_margin="5dip" 
+        android:textSize="30sp"/>
+
+<Button android:id="@+id/six_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 6 " 
+        android:layout_margin="5dip"
+        android:textSize="30sp"/>
+
+<Button android:id="@+id/multiplication_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" × " 
+        android:layout_margin="5dip"
+        android:textSize="30sp"/> 
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    
+<Button android:id="@+id/one_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 1 "
+        android:layout_margin="5dip"
+        android:textSize="30sp"/>
+
+<Button android:id="@+id/two_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 2 " 
+        android:layout_margin="5dip" 
+        android:textSize="30sp"/>
+
+<Button android:id="@+id/three_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 3 " 
+        android:layout_margin="5dip"
+        android:textSize="30sp"/>
+
+<Button android:id="@+id/subtraction_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  - " 
+        android:layout_margin="5dip"
+        android:textSize="30sp"/> 
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    
+<Button android:id="@+id/point_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  . "
+        android:layout_margin="5dip"
+        android:textSize="30sp"/>
+
+<Button android:id="@+id/zero_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 0 " 
+        android:layout_margin="5dip" 
+        android:textSize="30sp"/>
+
+<Button android:id="@+id/equal_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" = " 
+        android:layout_margin="5dip"
+        android:textSize="30sp"/>
+
+<Button android:id="@+id/addition_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" + " 
+        android:layout_margin="5dip"
+        android:textSize="30sp"/> 
+</LinearLayout>
+
+</LinearLayout>
